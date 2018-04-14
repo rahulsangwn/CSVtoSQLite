@@ -8,7 +8,7 @@ import java.sql.*;
 class DBWrite {
 
     public static final String DB_NAME = "test.db";
-    public static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\Sangwan.DESKTOP-40R23NP\\" + DB_NAME;
+    public static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\Sangwan.DESKTOP-40R23NP\\" + DB_NAME; // Database Location
     public static final String TABLE_STUDENT = "Student";
 
     public static final String COLUMN_ID = "ID";
@@ -45,7 +45,7 @@ public class Main {
 
     public static void main(String [] args) throws IOException {
         int ch;
-        BufferedReader bf = new BufferedReader(new FileReader("C:\\Users\\Sangwan.DESKTOP-40R23NP\\" + FILE_NAME));
+        BufferedReader bf = new BufferedReader(new FileReader("C:\\Users\\Sangwan.DESKTOP-40R23NP\\" + FILE_NAME)); //CSV file Location
 
         String s;
         while ((s=bf.readLine()) != null) {
