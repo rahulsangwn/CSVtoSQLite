@@ -52,7 +52,7 @@ public class Main {
 
             String[] s2 = s.split(",");
 
-            DBWrite.dbops(s2[0], s2[1], s2[2], s2[3]);
+            DBWrite.dbops(s2[0], s2[1], s2[2], s2[3]); // sample.csv contain ID, Name, Contact_no, Address of students in csv format
         }
 
         bf.close();
